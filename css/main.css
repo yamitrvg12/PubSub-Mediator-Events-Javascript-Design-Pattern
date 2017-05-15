@@ -1,0 +1,100 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    background: #e0e8f2;
+}
+
+.holder {
+    margin: 0 auto;
+    width: 340px;
+}
+
+.card {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.14);
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    position: relative;
+    margin: 80px 0 0;
+    background-color: #fff;
+}
+
+.add-people {
+    padding: 20px 25px;
+}
+
+.add-people-header {
+    text-align: center;
+}
+
+.add-people-user-icon {
+    font-size: 112px;
+    color: #dadada;
+}
+
+/*.add-people-content {}*/
+
+.add-people-form {
+    position: relative;
+}
+
+.add-people-form-add {
+    background-color: #fff;
+    height: 44px;
+    vertical-align: top;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    border: 0;
+    width: 100%;
+    padding: 0 90px 0 16px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.add-people-form-submit {
+    position: absolute;
+    right: 8px;
+    top: 13px;
+}
+
+.add-people-list {
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.add-people-list-item {
+    background-color: #ff5785;
+    color: #fff;
+    font-size: 13px;
+    font-family: tahoma;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin: 0 0 4px;
+    display: inline-block;
+}
+
+.del {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
