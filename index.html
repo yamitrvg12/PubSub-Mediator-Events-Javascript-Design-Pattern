@@ -15,6 +15,18 @@
 
     <div class="holder">
         <div class="card">
+            <div id="stats-module" class="stats-module">
+                <h2 class="stats-module-title">People</h2>
+                <div id="stats-module-count">
+                    <script id="stats-template" type="text/template">
+                        {{#people}}
+                            <div class="stats-module-count">{{.}}</div>
+                        {{/people}}
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="card">
             <div id="add-people" class="add-people">
                 <div class="add-people-header">
                     <div class="add-people-user-icon">
@@ -39,12 +51,29 @@
                 </div>
             </div>
         </div>
+        <div class="card">
+            <div id="total-people-module" class="total-people-module">
+                <h2 class="total-people-module-title">
+                    <span id="total-people-module-count">
+                        <script id="total-people-module-template" type="text/template">
+                            {{#people}}
+                                <span class="total-people-module-count">{{.}}</span>
+                            {{/people}}
+                        </script>
+                    </span> People
+                </h2>
+                <button id="total-people-module-unsubscribe" type="button">Unsubscribe</button>
+            </div>
+        </div>
     </div>
       
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="js/vendor/mustache.js"></script>
 
-    <script src="js/main.js"></script>
+    <script src="js/pubsub.js"></script>
+    <script src="js/stats.js"></script>
+    <script src="js/total-people.js"></script>
+    <script src="js/people.js"></script>
     </body>
 </html>
